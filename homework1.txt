@@ -1,0 +1,13 @@
+1. Скопируйте URL-адрес репозитория на github
+git clone "url" (вводим в терминале)
+git remote -v
+2. В папке с проектом создаю локальный репозиторий (git init), 
+выполняю весь необходимый минимум (git add ., git commit -m "Описание коммита"), 
+и пробую выложить его в свой аккаунт на GitHub:
+$ git remote add git_prj https://github.com/Gooddjamp/git_prj.git
+$ git push -u git_prj master
+3. git pull https://github.com:username/RepoName.git
+git pull origin master
+4. git status   "проверяем статус нашего файла"
+git remote -v "проверка на связку с github"
+
